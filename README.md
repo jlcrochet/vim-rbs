@@ -1,4 +1,4 @@
-
+![vim-rbs_demo](demo.png)
 
 This plugin adds syntax highlighting and indentation for [Ruby Signature](https://github.com/ruby/rbs) (`*.rbs`) files.
 
