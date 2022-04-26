@@ -1,6 +1,6 @@
 " Vim indent file
 " Language: Ruby Signature (RBS) <github.com/ruby/rbs>
-" Author: Jeffrey Crochet <jlcrochet@pm.me>
+" Author: Jeffrey Crochet <jlcrochet@hey.com>
 " URL: https://github.com/jlcrochet/vim-rbs
 
 " This pattern matches all operators that can be used as methods; these
