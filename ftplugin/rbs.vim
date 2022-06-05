@@ -9,10 +9,11 @@ endif
 
 let b:did_ftplugin = 1
 
-setlocal shiftwidth=2
-setlocal comments=:#
-setlocal commentstring=#\ %s
-setlocal suffixesadd=.rbs
+setlocal
+      \ shiftwidth=2
+      \ comments=:#
+      \ commentstring=#\ %s
+      \ suffixesadd=.rbs
 
 let b:undo_ftplugin = "setlocal shiftwidth< comments< commentstring< suffixesadd<"
 
