@@ -19,5 +19,7 @@ if get(g:, "rbs_fold")
 endif
 
 " matchit.vim
-let b:match_words = '\<\%(class\|module\|interface\)\>:\<end\>'
-let b:match_skip = 'S:^rbsDefine$'
+if get(g:, "loaded_matchit")
+  let b:match_words = '\<\%(class\|module\|interface\)\>:\<end\>'
+  let b:match_skip = 'S:^rbsDefine$'
+endif
