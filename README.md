@@ -11,9 +11,3 @@ These files are included in [my own rewrite of vim-ruby](https://github.com/jlcr
 This is a standard Vim plugin which can be installed using your plugin manager of choice. If you do not already have a plugin manager, I recommend [vim-plug](https://github.com/junegunn/vim-plug).
 
 Alternatively, if you are using Vim 8 or NeoVim, you can install this plugin as a package; see `:h packages` for instructions.
-
-## Configuration
-
-#### `g:rbs_fold`
-
-If true, module, interface, and class blocks will be folded.
