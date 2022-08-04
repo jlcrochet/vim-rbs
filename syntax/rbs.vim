@@ -240,4 +240,6 @@ hi def link rbsTypeOperator Operator
 hi def link rbsOptionalTypeOperator rbsTypeOperator
 " }}}1
 
+let b:current_syntax = "rbs"
+
 " vim:fdm=marker
